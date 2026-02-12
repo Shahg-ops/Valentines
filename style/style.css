@@ -122,7 +122,8 @@ body {
   max-width: 45%;
   height: auto;
   border-radius: 25px;
-  box-shadow: 0 0 40px rgba(255, 182, 193, 0.6);
+  -webkit-mask-image: radial-gradient(circle, black 70%, transparent 100%);
+  mask-image: radial-gradient(circle, black 70%, transparent 100%);
 }
 
 .six .hat {
